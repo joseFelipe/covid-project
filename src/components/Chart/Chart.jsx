@@ -57,7 +57,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
           }}
           options={{
             legend: { display: false },
-            title: { display: true, text: `Estado atual no(a) ${country}`}
+            title: { display: true, text: `Cenário atual no(a) ${country}`}
           }}
         />
       ) : null

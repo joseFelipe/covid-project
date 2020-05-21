@@ -14,12 +14,25 @@ body {
   margin-top: 35px;
 }
 
+.hr {
+  margin-top: 30px !important;
+  width: 50%;
+  border: none;
+  height: 1px;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
 @media (max-width:770px) {
   .container {
     margin: 0 10%;
   }
 
   .image {
+    width: 100%;
+  }
+
+  .hr {
     width: 100%;
   }
 }
