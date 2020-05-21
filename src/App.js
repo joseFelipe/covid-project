@@ -4,7 +4,7 @@ import { Cards, Chart, CountryPicker } from './components'
 import styles from './App.module.css'
 import { fetchData } from './api'
 
-import logoCovid from './images/logo-covid.png';
+import logoCovid from './images/logo-herocode-covid.png';
 
 class App extends React.Component {
 
