@@ -7,21 +7,21 @@
 }
 
 .infected {
-  border-left: 3px solid rgba(0, 0, 255, 0.5);
+  border-left: 3px solid #00a7ff;
   -webkit-box-shadow: 0px 0px 25px -10px rgba(153,153,153,1) !important;
   -moz-box-shadow: 0px 0px 25px -10px rgba(153,153,153,1) !important;
   box-shadow: 0px 0px 25px -10px rgba(153,153,153,1) !important;
 }
 
 .recovered {
-  border-left: 3px solid rgba(0, 255, 0, 0.5);
+  border-left: 3px solid #0daf57;
   -webkit-box-shadow: 0px 0px 25px -10px rgba(153,153,153,1) !important;
   -moz-box-shadow: 0px 0px 25px -10px rgba(153,153,153,1) !important;
   box-shadow: 0px 0px 25px -10px rgba(153,153,153,1) !important;
 }
 
 .deaths {
-  border-left: 3px solid rgba(255, 0, 0, 0.5);
+  border-left: 3px solid #ff4646;
   -webkit-box-shadow: 0px 0px 25px -10px rgba(153,153,153,1) !important;
   -moz-box-shadow: 0px 0px 25px -10px rgba(153,153,153,1) !important;
   box-shadow: 0px 0px 25px -10px rgba(153,153,153,1) !important;
