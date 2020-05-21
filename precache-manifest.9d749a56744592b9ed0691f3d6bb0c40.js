@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "72ba1864f1bfae5b414f98d92d8e64a5",
+    "revision": "17c84270d66fdefa29a41a08af2405e6",
     "url": "/covid-project/index.html"
   },
   {
-    "revision": "f40029d4997c1ea5667a",
-    "url": "/covid-project/static/css/main.07bef4a3.chunk.css"
+    "revision": "1a2914b50dc4b68355f9",
+    "url": "/covid-project/static/css/main.61d40f1d.chunk.css"
   },
   {
     "revision": "9461cedf1a87e9900f96",
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/covid-project/static/js/2.0d365343.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f40029d4997c1ea5667a",
-    "url": "/covid-project/static/js/main.c6839720.chunk.js"
+    "revision": "1a2914b50dc4b68355f9",
+    "url": "/covid-project/static/js/main.c8885036.chunk.js"
   },
   {
     "revision": "18531d08b3d9cc65f9b4",
     "url": "/covid-project/static/js/runtime-main.ed5cf38e.js"
   },
   {
-    "revision": "d7265326c3a1da5ec94c50746235f734",
-    "url": "/covid-project/static/media/logo-covid.d7265326.png"
+    "revision": "0b577babc4f67e50e3d386cabed1cd6e",
+    "url": "/covid-project/static/media/logo-herocode-covid.0b577bab.png"
   }
 ]);
