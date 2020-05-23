@@ -1,4 +1,17 @@
 .formControl {
-  width: 20%;
   margin-bottom: 30px !important;
+  color: #8f8f8f !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.42) !important;
+}
+
+.selectFont {
+  color: #ffffff !important;
+}
+
+svg {
+  color: #ffffff !important;
+}
+
+.inputLabel {
+  color: #8f8f8f !important; 
 }

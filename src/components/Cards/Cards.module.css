@@ -4,42 +4,40 @@
 
 .card {
   margin: 0 2% !important;
+  color: #e8e8e9 !important;
+  background-color: rgba(0,0,0,0.2) !important;
 }
 
 .infected {
-  -webkit-box-shadow: 0px 0px 25px -15px rgba(153,153,153,1) !important;
-  -moz-box-shadow: 0px 0px 25px -15px rgba(153,153,153,1) !important;
-  border-left: 2px solid rgba(35, 102, 245, 0.8);
-  box-shadow: 0px 0px 20px -15px rgba(153,153,153,1) !important;
+  border: 1px solid rgba(35, 102, 245, 0.8);
 }
 
 .infected:hover  {
-  box-shadow: 4px 0px 25px -10px rgba(153,153,153,1) !important;
+  box-shadow: 4px 0px 25px -10px rgba(35, 102, 245, 0.8) !important;
 }
 
 .recovered {
-  border-left: 2px solid rgba(2, 218, 56, 0.8);
-  -webkit-box-shadow: 0px 0px 25px -15px rgba(153,153,153,1) !important;
-  -moz-box-shadow: 0px 0px 25px -15px rgba(153,153,153,1) !important;
-  box-shadow: 0px 0px 20px -15px rgba(153,153,153,1) !important;
+  border: 1px solid rgba(2, 218, 56, 0.8);
 }
 
 .recovered:hover {
-  box-shadow: 4px 0px 25px -10px rgba(153,153,153,1) !important;
+  box-shadow: 4px 0px 25px -10px rgba(2, 218, 56, 0.8) !important;
 }
 
 .deaths {
-  border-left: 2px solid rgba(250, 74, 74, 0.959);
-  -webkit-box-shadow: 0px 0px 25px -10px rgba(153,153,153,1) !important;
-  -moz-box-shadow: 0px 0px 25px -10px rgba(153,153,153,1) !important;
-  box-shadow: 0px 0px 20px -15px rgba(153,153,153,1) !important;
+  border: 1px solid rgba(250, 74, 74, 0.959);
 }
 
 .deaths:hover {
-  box-shadow: 4px 0px 25px -10px rgba(153,153,153,1) !important;
+  box-shadow: 4px 0px 25px -10px rgba(250, 74, 74, 0.959) !important;
 }
 
-.mainText {
+.lastUpdate {
+  color: #8f8f8f !important;
+}
+
+.cardTitle {
+  color: #8f8f8f !important;
   display: flex;
 }
 
@@ -53,7 +51,7 @@
   border: none;
   height: 1px;
   flex-shrink: 0;
-  background-color: rgba(0, 0, 0, 0.05) !important;
+  background-color: #3b3b3b !important;
 }
 
 @media (max-width:770px) {

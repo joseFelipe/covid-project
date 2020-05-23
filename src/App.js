@@ -5,7 +5,7 @@ import Divider from '@material-ui/core/Divider';
 import styles from './App.module.css';
 import { fetchData } from './api';
 
-import logoCovid from './images/logo-herocode-covid.png';
+import logoCovid from './images/logo-herocode-covid-white.png';
 
 class App extends React.Component {
 
@@ -31,10 +31,12 @@ class App extends React.Component {
     return (
       <div className={styles.container}>
         <img className={styles.image} src={logoCovid} alt='COVID-19' />
-        <Divider className={styles.hr} variant='middle' />
+        <Divider className={styles.hr} />
         <Cards data={data}/>
-        <CountryPicker handleCountryChange={this.handleCountryChange} />
-        <Chart data={data} country={country}/>
+        <div className={styles.containerLight}>
+          <CountryPicker handleCountryChange={this.handleCountryChange} />
+          <Chart data={data} country={country}/>
+        </div>
       </div>
     )
   }

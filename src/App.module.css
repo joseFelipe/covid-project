@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(250, 250, 250);
+  background-color: #202124;
 }
 
 .container {
@@ -9,8 +9,20 @@ body {
   flex-direction: column;
 }
 
+.containerLight {
+  width: 100%;
+  padding: 30px;
+  position: fixed ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #26282c;
+  /* border-top: 1px solid #3b3b3b; */
+}
+
 .image {
-  width: 500px;
+  width: 350px;
   margin-top: 35px;
 }
 
@@ -20,7 +32,7 @@ body {
   border: none;
   height: 1px;
   flex-shrink: 0;
-  background-color: rgba(0, 0, 0, 0.05) !important;
+  background-color: #3b3b3b !important;
 }
 
 @media (max-width:770px) {

@@ -18,8 +18,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate} }) => {
         <Grid item component={Card} xs={12} md className={cx(styles.card, styles.infected)}>
           <CardContent>
             <Typography 
-              className={styles.mainText} 
-              color='textSecondary'
+              className={styles.cardTitle} 
               gutterBottom>
                 Infectados
                 <PeopleAltSharpIcon className={styles.icon}/>
@@ -28,7 +27,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate} }) => {
               <CountUp start={0} end={confirmed.value} duration={2.5} separator="," />
             </Typography>
             <Divider className={styles.hr} />
-            <Typography color='textSecondary'>Última atualização: <b>{new Date(lastUpdate).toLocaleString('pt-br')}</b></Typography>
+            <Typography className={styles.lastUpdate}>Última atualização: <b>{new Date(lastUpdate).toLocaleString('pt-br')}</b></Typography>
             <Divider className={styles.hr} />
             <Typography variant='body2'>Número de casos ativos de COVID-19 </Typography>
           </CardContent>
@@ -36,7 +35,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate} }) => {
         <Grid item component={Card} xs={12} md className={cx(styles.card, styles.recovered)}>
           <CardContent>
             <Typography 
-              className={styles.mainText} 
+              className={styles.cardTitle} 
               color='textSecondary' 
               gutterBottom>
                 Curados 
@@ -46,7 +45,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate} }) => {
               <CountUp start={0} end={recovered.value} duration={2.5} separator="," />
             </Typography>
             <Divider className={styles.hr} />
-            <Typography color='textSecondary'>Última atualização: <b>{new Date(lastUpdate).toLocaleString('pt-br')}</b></Typography>
+            <Typography className={styles.lastUpdate}>Última atualização: <b>{new Date(lastUpdate).toLocaleString('pt-br')}</b></Typography>
             <Divider className={styles.hr} />
             <Typography variant='body2'>Número de curados do COVID-19</Typography>
           </CardContent>
@@ -54,7 +53,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate} }) => {
         <Grid item component={Card} xs={12} md className={cx(styles.card, styles.deaths)}>
           <CardContent>
             <Typography 
-              className={styles.mainText} 
+              className={styles.cardTitle} 
               color='textSecondary' 
               gutterBottom>
                 Mortes 
@@ -64,7 +63,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate} }) => {
               <CountUp start={0} end={deaths.value} duration={2.5} separator="," />
             </Typography>
             <Divider className={styles.hr} />
-            <Typography color='textSecondary'>Última atualização: <b>{new Date(lastUpdate).toLocaleString('pt-br')}</b></Typography>
+            <Typography className={styles.lastUpdate}>Última atualização: <b>{new Date(lastUpdate).toLocaleString('pt-br')}</b></Typography>
             <Divider className={styles.hr} />
             <Typography variant='body2'>Número de mortes causadas pelo COVID-19</Typography>
           </CardContent>
