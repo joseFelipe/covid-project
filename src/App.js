@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Cards, Chart, CountryPicker, Profile } from './components';
-import Divider from '@material-ui/core/Divider';
+import { Typography, Divider } from '@material-ui/core';
 import styles from './App.module.css';
 import { fetchData } from './api';
 
@@ -39,6 +39,11 @@ class App extends React.Component {
         </div>
         <div className={styles.container}>
           <Profile />
+        </div>
+        <div className={styles.footer}>
+          <Typography variant="body2" color="" component="p">
+            <p>Desenvolvido por <b>Felipe Silva</b></p>
+          </Typography>
         </div>
       </div>
     )

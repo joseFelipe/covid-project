@@ -20,6 +20,21 @@ body {
   background-color: #26282c;
 }
 
+.footer {
+  width: 100%;
+  height: 65px;
+  position: fixed ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #26282c;
+  border-top: 1px solid #16171a;
+}
+
+.footer > p {
+  color: #8f8f8f;
+}
+
 .image {
   width: 350px;
   margin-top: 35px;
