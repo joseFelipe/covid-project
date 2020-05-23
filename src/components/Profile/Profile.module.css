@@ -1,0 +1,23 @@
+.container {
+  border: 1px solid rgba(2, 218, 56, 0.8);
+  margin: 50px !important;
+  width: 500px !important;
+  border-radius: 4px;
+}
+
+.card {
+  padding: 10px 50px !important;
+  text-align: center;
+  color: #e8e8e9 !important;
+  background-color: rgba(0,0,0,0.2) !important;
+  display: block !important;
+}
+
+.cardActions {
+  display: block !important;
+}
+
+.hr {
+  margin: 10px 0 !important;
+  background-color: #26282c !important;
+}
