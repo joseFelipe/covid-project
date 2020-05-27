@@ -26,7 +26,7 @@ const Profile = () => {
               gutterBottom>
                 Felipe Silva
             </Typography>
-            <Typography variant="body2" color="" component="p">
+            <Typography variant="body2" component="p">
               Programador apaixonado por tecnologia e por café <span aria-label="Emoji coffee" role="img">☕️</span>
             </Typography>
           </CardContent>

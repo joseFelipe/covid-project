@@ -41,8 +41,8 @@ class App extends React.Component {
           <Profile />
         </div>
         <div className={styles.footer}>
-          <Typography variant="body2" color="" component="p">
-            <p>Desenvolvido por <b>Felipe Silva</b></p>
+          <Typography variant="body2" component="p">
+            Desenvolvido por <b>Felipe Silva</b>
           </Typography>
         </div>
       </div>
