@@ -1,7 +1,7 @@
 .container {
   border: 1px solid rgba(2, 218, 56, 0.8);
   margin: 50px !important;
-  width: 500px !important;
+  width: 30% !important;
   border-radius: 4px;
 }
 
@@ -20,4 +20,10 @@
 .hr {
   margin: 10px 0 !important;
   background-color: #26282c !important;
+}
+
+@media (max-width:960px) {
+  .container {
+    width: 100% !important;
+  }
 }

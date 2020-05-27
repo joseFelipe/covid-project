@@ -54,7 +54,7 @@
   background-color: #3b3b3b !important;
 }
 
-@media (max-width:770px) {
+@media (max-width:960px) {
   .card {
     margin: 2% 0 !important;
   }

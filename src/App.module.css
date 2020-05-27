@@ -1,5 +1,9 @@
 body {
   background-color: #202124;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+  overflow-y: scroll; 
 }
 
 .container {
@@ -12,7 +16,6 @@ body {
 .containerLight {
   width: 100%;
   padding: 30px;
-  position: fixed ;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,7 +26,6 @@ body {
 .footer {
   width: 100%;
   height: 65px;
-  position: fixed ;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,13 +48,13 @@ body {
   background-color: #3b3b3b !important;
 }
 
-@media (max-width:770px) {
+@media (max-width:960px) {
   .container {
     margin: 0 10%;
   }
 
   .image {
-    width: 100%;
+    width: 80%;
   }
 
   .hr {

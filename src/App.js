@@ -29,10 +29,12 @@ class App extends React.Component {
     const { data, country } = this.state;
     
     return (
-      <div className={styles.container}>
-        <img className={styles.image} src={logoCovid} alt='COVID-19' />
-        <Divider className={styles.hr} />
-        <Cards data={data}/>
+      <>
+        <div className={styles.container}>
+          <img className={styles.image} src={logoCovid} alt='COVID-19' />
+          <Divider className={styles.hr} />
+          <Cards data={data}/>
+        </div>
         <div className={styles.containerLight}>
           <CountryPicker handleCountryChange={this.handleCountryChange} />
           <Chart data={data} country={country}/>
@@ -45,7 +47,7 @@ class App extends React.Component {
             Desenvolvido por <b>Felipe Silva</b>
           </Typography>
         </div>
-      </div>
+      </>
     )
   }
 }
